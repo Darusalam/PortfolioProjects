@@ -114,11 +114,6 @@ where dea.continent is not null
 select * ,(Convert(float,RollingPeopleVaccinated)/population)*100
 from PopvsVac
 
-
-
-
-
-
 -- TEMP TABLE
 drop Table if exists #PercentPopulationVaccinated
 Create  Table #PercentPopulationVaccinated
